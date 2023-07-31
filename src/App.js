@@ -1,24 +1,22 @@
-// import logo from './logo.svg';
 import './App.css';
-import FetchApi from './components/FetchApi';
-import Main from './components/Main';
-import NavBar from './components/NavBar';
-// import Main from './components/Main';
-import Heading from './components/Heading';
-
-
+import { Routes,Route } from 'react-router-dom';
+import HomePage from './Pages/HomePage';
+import DetailPage from './Pages/DetailPage';
+// import AddToCart from './Pages/Cart';
+import Cart from './components/Cart';
+import LoginPage from './components/LoginPage'
 
 function App() {
   return (
     <div className="App">
-     {/* <h1>hello world</h1> */}
-      <NavBar/>
-       <Heading/>
-     <FetchApi/>
-    
-     <Main/>
-    
+    <Routes>
+      <Route path='/home' Component={HomePage} exact/>
+      <Route path='/detailpage/:id' Component={DetailPage} exact/>
+      <Route path='/cart' Component={Cart} exact/>
+      <Route path='/' Component={LoginPage} exact/>
 
+    </Routes>
+        {/* <LoginPage/> */}
     </div>
   );
 }

@@ -10,6 +10,7 @@ function NavBar() {
          <div className='nav-Btn'>
          <button className='login'>Login</button>
          <button className='login-sign'>Sign up</button>
+         {/* <button className='cart'>CARt</button> */}
          </div>
     </div>
   )

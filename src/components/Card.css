@@ -1,0 +1,53 @@
+.section-center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 2px solid rebeccapurple; */
+}
+.Card-container{
+color: black;
+ width: 300px;
+  height: 500px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+.cardprice{
+    font-size: 15px;
+}
+.cardimg{
+    /* margin: auto; */
+    width: 200px;
+    height: 200px; 
+    margin-left: 50px;
+    margin-top: 20px;
+    /* border: 2px solid black; */
+  }
+  .item-text{
+    color:rgb(164, 136, 136);
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    margin-top: -10px; 
+  margin: 20px;
+  } 
+  .Card-container:hover{
+    cursor: pointer;
+  box-sizing: border-box;
+      border: 0 solid rgb(160, 142, 142);
+      transform: scale(1.03);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+  } 
+  .item-text{
+    color:rgb(164, 136, 136);
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    /* margin-top: -10px; */
+  
+   margin: 20px;
+  
+  } 

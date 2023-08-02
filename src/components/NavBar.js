@@ -1,5 +1,8 @@
 import React from 'react'
 import logo from './img/logo.png'
+// import { Link } from 'react-router-dom'
+// import Cart from './Cart'
+import { Link } from 'react-router-dom'
 
 function NavBar() {
   return (
@@ -10,7 +13,9 @@ function NavBar() {
          <div className='nav-Btn'>
          <button className='login'>Login</button>
          <button className='login-sign'>Sign up</button>
-         {/* <button className='cart'>CARt</button> */}
+         <Link to='/cart'> 
+         <button className='login'>Cart</button>
+         </Link>
          </div>
     </div>
   )

@@ -71,12 +71,12 @@ return (
     {/* <span>{item.price * item.quantity}</span> */}
     {/* <button className="quantity"  >{item.quantity}</button> */}
     <div className='quan-btn'>
-     {/* <button onClick={()=> setItemQuantity(()=>{{item.quantity--}})}>-</button>
+     <button onClick={()=> setItemQuantity(()=>{{item.quantity--}})}>-</button>
     <span className="quantity"> Quantity: {item.quantity}</span>
 
-     <button onClick={()=> setItemQuantity(()=>{{item.quantity++}})}>+</button> */}
+     <button onClick={()=> setItemQuantity(item.quantity++)}>+</button>
 
-    <p className="quantity"> Quantity: {item.quantity}</p>
+    {/* <p className="quantity"> Quantity: {item.quantity}</p> */}
     </div>
     </div>
 </div>

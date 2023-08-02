@@ -1,69 +1,5 @@
 
 
-/* .container {
-  
-  display: flex;
-  flex-wrap: wrap;
-  
-  justify-content: space-around;
- 
-  padding: 10px 0px;
-  align-items: center;
-
-} */
-
-
-
-/* .section-center{
-  display: flex;
-  /* width: 30%; */
-  /* flex-direction: column; */
-  /* flex-wrap: wrap; */
-  /* justify-content: space-between; */
-  /* background-color: aqua; */
-  /* transition: 0.3s grey ; */
-  /* }  */
-  /* .menu-item{
-    width: 100%;
-background-color: blue;
-  } */
-   /* .Card-container{ */
-    /* width: auto; */
-    /* margin: 20px; */
-    /* flex: 1 0 21%; */
-    /* width: 30%;
-    text-decoration: none;
-    margin: 30px;
-    background-color: red;
-    border: 5px solid rgb(181, 177, 177);
-  } */
-  
-  /* .Card-container:hover{
-    cursor: pointer;
-  box-sizing: border-box;
-      border: 0 solid rgb(160, 142, 142);
-      transform: scale(1.03);
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-  } */
-  /* .photo{
-    margin: auto;
-    width: 220px;
-    height: 250px; */
-    /* margin-top: 20px; */
-    /* border: 2px solid black; */
-  /* } */
-  /* .item-text{
-    color:rgb(164, 136, 136);
-    font-size: 15px;
-    font-weight: 100;
-    margin-bottom: 20px;
-    /* margin-top: -10px; */
-  
-  /* margin: 20px;
-  
-  } */ 
-
 .navBar {
   /* width: 100%; */
   background-color: white;
@@ -169,21 +105,17 @@ header h4{
   height: 90vh;
   /* margin-top: 10%; */
   margin: 8% auto;
-  /* align-items: center; */
-  /* justify-content: center; */
+  
     display: flex;
-    /* flex-wrap: wrap; */
-    /* background-color: rgb(200, 210, 210) */
+  
 }
 .image {
   display: flex;
   max-width: 100%;
   /* flex: 1 0 21%; */
   margin-top: 20px;
-  /* margin-left: 80px; */
-  /* border: 2px solid red; */
-   /* width: 170px;
-  height: 220px; */
+  
+  height: 220px; 
   margin-bottom: 20px;
   /* margin: auto; */
 }
@@ -212,12 +144,12 @@ header {
   margin-left: 28%;
 }
 .buttons{
-  background-color: aliceblue;
-  color: black;
+  background-color: rgb(81, 128, 208);
+  color: rgb(255, 255, 255);
   /* margin-left: 12%;
   margin-bottom: 20px; */
-  padding: 10px 20px;
-  font-size: 18px;
+  padding: 10px 10px;
+  font-size: 17px;
   margin: 5px;
   /* margin: 20px; */
 }
@@ -261,7 +193,7 @@ header {
     font-size: 10px;
     padding: 5px 8px;
     border-radius: 5px;
-    /* margin: 3px; */
+    margin: 3px;
     border: none;
     color: white;
     background-color: rgb(84, 84, 213);
@@ -293,7 +225,7 @@ header {
     font-size: 10px;
     padding: 4px 10px;
     border-radius: 5px;
-    margin: 10px;
+    margin: 8px;
     border: 2px solid rgb(202, 199, 199);
     /* border: none; */
     color: rgb(39, 39, 39);
@@ -328,12 +260,15 @@ header {
     margin: auto;
     display: flex;
     max-width: 100%;
-
+/* height: 200px; */
     margin-top: 2px;
     
     margin-bottom: 3px;
 
   } 
+  .item-info1{
+    /* margin-top: 10px; */
+  }
   .addToCart{
     border: none;
     background-color: rgb(51, 76, 177);
@@ -352,8 +287,17 @@ header {
     margin-left: 20px;
    }  
    .buttons {
-    /* margin-left: 10px; */
-    font-size: 18px;
+    margin-left: 10px;
+    /* padding: 0 10px; */
+    font-size: 13px;
     flex-direction: column;
+    width: 160px;
+    align-items: center;
+    justify-content: center;
+  }
+  .buttons:hover{
+    transition: 0.2s ease-in-out;
+    background-color: rgb(209, 228, 246);
+    
   }
  }
